@@ -1,0 +1,215 @@
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav-links li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Hamburger (hidden on desktop) */
+    .hamburger {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        margin-right: 80px;
+        margin-top: 10px;
+        /* padding: 5px; */
+        border-radius: 30px;
+        margin-left: 30px;
+    }
+
+    .logo {
+        margin-top: 15px;
+        font-size: 30px;
+        /* color: rgb(255, 255, 255); */
+        padding-left: 15px;
+        text-decoration: none;
+        color: #f96d00;
+        padding-bottom: 15px; 
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+    }
+
+    ul li {
+        /* padding: 25px; */
+        text-decoration: none;
+        display: flex;
+        font-weight: bold;
+        font-family: Verdana, ;
+        font-style: unset;
+        text-transform: capitalize;
+        margin-right: 50px;
+        gap: 5px;
+        color: black;
+        /* padding-right: 40px; */
+
+    }
+
+    ul li :hover {
+
+        background-color: #f96d00;
+        /* color: rgb(0, 247, 255); */
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 0 1px 8px rgb(255, 255, 255);
+        text-decoration: none;
+
+
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .main1 {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+
+
+    }
+
+    .box1 {
+        margin-top: 100px;
+        margin-left: 40px;
+        gap: 20px;
+    }
+
+    .banner {
+        color: #ffffff;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+
+    }
+
+    samp {
+        color: #f96d00;
+        text-decoration: none;
+    }
+
+    .main-text {
+        color: white;
+        font-size: 17px;
+        padding: 10px;
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        border: none
+    }
+
+    button{
+        background-color: #f96d00;
+        padding: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: initial;
+    }
+    button:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    
+</style>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+        <h1 class="logo">portfolio</h1>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">ABOUT</a></li>
+
+        </ul>
+
+
+
+
+
+
+    </nav>
+    <!-- main section -->
+    <div class="main1">
+        <div class="box1">
+            <h1 class="banner"> I m <samp>𝒮𝐻𝒜𝒴𝒜𝒩</samp> </h1>
+            <p class="main-text">I am a web developer, <br>and my goal is to learn new technologies in the IT field,<br>
+                build
+                larger and more impactful projects,<br> and continuously grow my skills. <br> I aim to learn something
+                new every
+                day, <br> work with modern tools and frameworks, <br> and become a successful and professional
+                individual who <br> can
+                make a difference through my work. <br>I don't want to limit myself to just development—I <br>want to
+                innovate
+                and create new <br> solutions through creativity and technology.</p>
+
+            <button>shop now</button>
+        </div>
+
+
+        <p class="i"><img src="img shayan.jpg" width="300px" height="500px" style="margin-right: 60px; margin-top: 50px; border-radius: 20px;
+    box-shadow: 0px 10px 20px  #f96d00 " class="img-hover">
+    </div>
+
+
+
+    </div>
+    </head>
+
+    <body>
